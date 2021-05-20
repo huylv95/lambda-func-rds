@@ -11,6 +11,7 @@ Successfully installed PyMySQL-1.0.2 </br>
 root@huylv:/home/le.van.huy/d# ls </br>
 pymysql  PyMySQL-1.0.2.dist-info </br>
 
-# Create index.py and rds_config.py </br>
-# Zip all of file (index.py and rds_config.py and module folder)</br>
-# Import to lambda function </br>
+Next, Create index.py and rds_config.py </br>
+Next, zip all of file (index.py and rds_config.py and module folder)</br>
+Next, import to lambda function </br>
+Next, Make sure handler on lambda function look like my image attachment.
