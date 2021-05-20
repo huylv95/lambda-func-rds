@@ -5,7 +5,7 @@ Collecting PyMySQL </br>
   Installing collected packages: PyMySQL </br>
   Successfully installed PyMySQL-1.0.2 </br>
 
-1.2 Check output from command as above
+1.2. Check output from command as above
   root@huylv:/home/le.van.huy/d# ls </br>
   pymysql  PyMySQL-1.0.2.dist-info </br>
 </br></br>
