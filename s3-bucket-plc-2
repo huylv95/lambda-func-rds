@@ -1,0 +1,35 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Principal": {
+                "AWS": [
+                    "arn:aws:iam::589380217852:user/huylv1",
+					          "arn:aws:iam::589380217852:user/huylv2"
+                ]
+            },
+            "Action": "s3:*",
+            "Resource": [
+                "arn:aws:s3:::s3-bucket-name01/*",
+                "arn:aws:s3:::s3-bucket-name01"
+            ],
+            "Effect": "Allow"
+        },
+        {
+            "NotPrincipal": {
+                "AWS": [
+                    "arn:aws:iam::589380217852:user/huylv1",
+					          "arn:aws:iam::589380217852:user/huylv2"
+                ]
+            },
+            "Action": "s3:*",
+            "Resource": [
+                "arn:aws:s3:::s3-bucket-name01/*",
+                "arn:aws:s3:::s3-bucket-name01"
+            ],
+            "Effect": "Deny"
+        }
+    ]
+}
+
+Refer: https://asecure.cloud/a/s3_restrict_iam_user/
